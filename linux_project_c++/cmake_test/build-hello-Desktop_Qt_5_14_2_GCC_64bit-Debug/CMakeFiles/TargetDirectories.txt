@@ -1,0 +1,3 @@
+/home/kk-1988/work/cpp_test/linux_project_c++/cmake_test/build-hello-Desktop_Qt_5_14_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/kk-1988/work/cpp_test/linux_project_c++/cmake_test/build-hello-Desktop_Qt_5_14_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/kk-1988/work/cpp_test/linux_project_c++/cmake_test/build-hello-Desktop_Qt_5_14_2_GCC_64bit-Debug/CMakeFiles/hello.dir
