@@ -12,10 +12,15 @@ namespace NS1
 		}	
 	}	
 	
+	void func1(void)
+	{
+		cout << "NS1::func1" << endl;
+	}
+	
 	void func2(void)
 	{
 		//cout << "NS1::func2" << endl;
-		NS2::func1();
+		func1();
 	}
 }
 
