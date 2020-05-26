@@ -4,27 +4,18 @@ using namespace std;
 
 namespace NS1
 {
-	extern void func2(void);
-	
 	namespace NS2
 	{
-		void func2(void)
-		{
-			
-			cout << "NS1::NS2::func2" << endl;
-		}
-		
 		void func1(void)
 		{
-			//cout << "NS1::NS2::func1" << endl;
-			func2();
+			cout << "NS1::NS2::func1" << endl;
 		}	
 	}	
 	
 	void func2(void)
 	{
-		
-		cout << "NS1::func2" << endl;
+		//cout << "NS1::func2" << endl;
+		NS2::func1();
 	}
 }
 
@@ -32,8 +23,8 @@ namespace NS1
 
 int main(void)
 {
-	NS1::NS2::func1();
-	//NS1::func2();
+	//NS1::NS2::func1();
+	NS1::func2();
 	
 	return 0;
 }
