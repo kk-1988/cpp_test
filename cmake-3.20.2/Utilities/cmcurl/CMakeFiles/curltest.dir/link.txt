@@ -1,0 +1,1 @@
+/usr/bin/gcc  -w -O3 -DNDEBUG CMakeFiles/curltest.dir/curltest.c.o -o curltest  -Wl,-rpath,/usr/local/lib lib/libcmcurl.a -ldl /usr/local/lib/libssl.so /usr/local/lib/libcrypto.so ../cmnghttp2/libcmnghttp2.a ../cmzlib/libcmzlib.a 

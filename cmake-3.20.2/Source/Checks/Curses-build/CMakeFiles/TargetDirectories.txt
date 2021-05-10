@@ -1,0 +1,2 @@
+/home/kk-1988/work/cpp_test/cmake-3.20.2/Source/Checks/Curses-build/CMakeFiles/rebuild_cache.dir
+/home/kk-1988/work/cpp_test/cmake-3.20.2/Source/Checks/Curses-build/CMakeFiles/edit_cache.dir
