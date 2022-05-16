@@ -32,10 +32,17 @@
 > const
 > and
 > and_eq
-> 
 
-
-13. 
+13. 字符类型
+> char
+* 一般是1个字节
+* 从cpp14开始，char默认是unsigned还是signed是根据平台而定的，arm默认是unsigned，x64默认是signed，建议最好显示的指定
+* char类型cout输出默认为字符，而int类型cout输出默认为数字
+* 
+>  wchar_t 宽字符
+* 
+* 
+* 
 
 ## 相关资料
 * 参考手册
